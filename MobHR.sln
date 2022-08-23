@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MobHR", "MobHR\MobHR.csproj", "{7100389A-3651-40D9-B19E-2B933BBA36A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domin", "Domin\Domin.csproj", "{5F1A2DC8-D06D-4949-898F-2BEFFA22CF12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastrucure", "Infrastrucure\Infrastrucure.csproj", "{46170638-DC4A-4DCD-9E19-B4CF712B28DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7100389A-3651-40D9-B19E-2B933BBA36A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7100389A-3651-40D9-B19E-2B933BBA36A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7100389A-3651-40D9-B19E-2B933BBA36A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7100389A-3651-40D9-B19E-2B933BBA36A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F1A2DC8-D06D-4949-898F-2BEFFA22CF12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F1A2DC8-D06D-4949-898F-2BEFFA22CF12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F1A2DC8-D06D-4949-898F-2BEFFA22CF12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F1A2DC8-D06D-4949-898F-2BEFFA22CF12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46170638-DC4A-4DCD-9E19-B4CF712B28DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46170638-DC4A-4DCD-9E19-B4CF712B28DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46170638-DC4A-4DCD-9E19-B4CF712B28DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46170638-DC4A-4DCD-9E19-B4CF712B28DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D99F255-1E73-4C15-B1A3-AF9C630FC217}
+	EndGlobalSection
+EndGlobal

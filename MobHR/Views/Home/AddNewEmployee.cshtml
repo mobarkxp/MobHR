@@ -1,0 +1,151 @@
+﻿<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1500">
+                <h1 class="m-0 text-dark">الموظفين</h1>
+            </div><!-- /.col -->
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a href="#">الرئيسية</a></li>
+                    <li class="breadcrumb-item active">Dashboard v1</li>
+                </ol>
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+</div>
+<div class="card card-info">
+    <div class="card-header ">
+        <h4 class="d-sm-inline-block">إظافة موظف جديد </h4>
+        <img class="rounded-circle d-sm-inline-block translate-middle " style="width:35px;height:35px" src="~/dist/img/user-img.jpg"/>
+    </div>
+    <div class="card-body ">
+        <form>
+            <label><strong>المعلومات الشخصية</strong></label>
+            <hr />
+            <div class="row">
+
+                <div class="col-4">
+                    <label> الاسم الكامل</label>
+                    <input class="form-control " />
+                    <label> الايميل</label>
+                    <input class="form-control " />
+                    <label>رقم الجوال</label>
+                    <input class="form-control " />
+                    <label>تاريخ الميلاد </label>
+                    <input class="form-control  " type="date" />
+                     <label> الجنس</label>
+                    <select class="form-control  text-center " >
+                        <option>-------اختر الجنس-----</option>
+                         <option>ذكر</option>
+                          <option>انثي</option>
+                    </select>
+                </div>
+                <div class="col-4">
+                    <label>رقم الهوية</label>
+                    <input class="form-control " />
+                    <label>تاريخ الانتهاء الهوية</label>
+                    <input class="form-control  " type="date" />
+                    <label>رقم الجواز</label>
+                    <input class="form-control " />
+                    <label>تاريخ الانتهاء الجواز</label>
+                    <input class="form-control  " type="date" />
+                     <label> الجنسية</label>
+                    <select class="form-control text-center " >
+                        <option>-------اختر الجنسية-----</option>
+                    </select>
+                </div>
+                <div class="col-4">
+                    <label> الحالة الاجتماعية </label>
+                    <br />
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">متزوج</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">اعزب</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">منفصل</label>
+                    </div>
+                    <br />
+
+                    <label> العنوان</label>
+                    <textarea rows="4" class="form-control ">
+
+                    </textarea>
+
+                    <div class="mb-3">
+                        <label for="formFile" class="form-label">الصورة الشخصية</label>
+                        <input class="form-control" type="file" id="formFile">
+                    </div>
+                </div>
+            </div>
+
+            <br />
+             <label><strong>معلومات التوظيف</strong></label>
+            <hr />
+            <div class="row">
+
+                <div class="col-4">
+                    <label> القسم</label>
+                    <select class="form-control text-center " >
+                        <option>-------اختر القسم-----</option>
+                    </select>
+                    <label> مسمي الوظيفة</label>
+                    <select class="form-control text-center " >
+                        <option>-------اختر الوظيفة-----</option>
+                    </select>
+                    
+                   
+                </div>
+                <div class="col-4">
+                    <label>رصيد الاجازات </label>
+                    <input class="form-control " />
+                     <label>تاريخ الانظمام </label>
+                    <input class="form-control  " type="date" />
+                </div>
+                <div class="col-4">
+                   <label>الراتب الاساسي</label>
+                    <input class="form-control " />
+
+                    <label> ملاحظات</label>
+                    <textarea rows="2" class="form-control ">
+
+                    </textarea>
+
+                   
+                </div>
+            </div>
+
+              <br />
+             <label><strong>معلومات الموهلات</strong></label>
+            <hr />
+            <div class="row">
+
+                <div class="col-4">
+                    <label> اسم الموهل</label>
+                    <input class="form-control " />
+                    
+                   
+                </div>
+                <div class="col-4">
+                   
+                     <label>تاريخ التخرج </label>
+                    <input class="form-control  " type="date" />
+                </div>
+                <div class="col-4">
+                  <div class="mb-3">
+                        <label for="formFile" class="form-label">الملفات </label>
+                        <input class="form-control" type="file" id="formFile">
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-info form-control" type="submit" >حفظ</button>
+            </div>
+            
+        </form>
+    </div>
+</div>
