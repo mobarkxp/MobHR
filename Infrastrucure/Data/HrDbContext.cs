@@ -16,5 +16,11 @@ namespace Infrastrucure.Data
         }
 
         public DbSet<Department>? Departments { get; set; }
+        public DbSet<Gender>? Genders { get; set; }
+        public DbSet<Nationality>? Nationalities { get; set; }
+        public DbSet<MarrigeStatus>? MarrigeStatuses { get; set; }
+        public DbSet<EmployeeWorkStatus>? EmployeeWorkStatuses { get; set; }
+        public DbSet<Job>? Jobs { get; set; }
+
     }
 }
